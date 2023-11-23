@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'COCOGOOSE', sans-serif;                                            
+  }
+
+  .contenedor-principal{
+    width: 1263px;
+    height: 870px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .contenido{
+    padding-top: 120px;
+    width: 1263px;
+    height: 730px;
+    display: block;
+  }
+
+  .banner{
+    width: 1263px;
+    height: 400px;
+  }
+
+  .banner img{
+    margin-left: 31px;
+    width: 1200px;
+    margin-top: 10px;
+    height: 380px;
+    border-radius: 80px;
+  }
+
+  .contenido-central-uno{
+    margin-top: 10px;
+    width: 1263px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .izquierda{
+    width: 580px;
+    height: 290px;
+    margin-left: 50px;
+  }
+
+  .izquierda button{
+    margin-top: 10px;
+    border: 2px solid #152a54;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    color: #152a54;
+    border-radius: 15px;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+  
+  .titulo-central{
+    display: block;
+    text-align: left;
+    flex-direction: column;
+    color: #152a54;
+    font-size: 4.6vw;
+    line-height: 80px;
+  }
+  
+  .subtitulo{
+    color: #cc192b;
+    font-size: 1.5vw;margin-bottom: 10px;
+  }
+  
+  .texto{
+    color: #152a54;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  .derecha{
+    width: 580px;
+    height: 290px;
+    margin-right: 42px;
+  }
+  
+  .escudos{
+    width: 580px;
+    height: 280px;
+    background: linear-gradient(135deg, #cc192b,#152a54);
+    border-radius: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .escudos img{
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    margin-left: 3.2%;
+  }
+
+
+  /* Diseño Responsive 
+
+@media screen and (max-width: 380px
+ ) {
+    header, .posicion{
+      max-width: 1200px; 
+    }   
+}
+
+@media screen and (max-width: 1020px
+ ) {
+    .posicion{
+      width: 100%; 
+      flex-direction: column;
+    }
+
+    .letra_centro{
+        width: 100%;
+    } 
+}
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
